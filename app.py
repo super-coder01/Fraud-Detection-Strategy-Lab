@@ -2,7 +2,7 @@
 #
 # ======================================================================================
 # The Ultimate Interactive AI Strategy Lab: Fraud Detection
-# By: Archi-Dev Harsh, Bhushit, Aakash, Raj Mishra & Sexy Bhai 😘 (and Apex!)
+# By: Archi-Dev Harsh, Bhushit, Aakash, Raj Mishra & Sexy Bhai 😘 
 # Version: 2.6 (Golden Master, All Fixes Integrated)
 # ======================================================================================
 
