@@ -1,7 +1,7 @@
 # app.py
 #
 # ======================================================================================
-# The Ultimate Interactive AI Strategy Lab: Fraud Detection
+# Fraud Detection Stragety Lab
 # By: Archi-Dev Harsh, Bhushit, Aakash, Raj Mishra & Sexy Bhai 😘 
 # Version: 2.6 (Golden Master, All Fixes Integrated)
 # ======================================================================================

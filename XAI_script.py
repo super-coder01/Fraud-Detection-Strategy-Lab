@@ -1,6 +1,6 @@
 # XAI_script.py
 #
-# Project: The Ultimate Interactive AI Strategy Lab: Fraud Detection
+# Project: Fraud Detection Strategy Lab
 # Author: Archi-Dev Harsh, Bhushit, Aakash, Raj Mishra & Sexy Bhai 😘
 # Version: 2.6 - Golden Master, All Fixes Integrated
 #
