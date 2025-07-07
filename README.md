@@ -1,4 +1,4 @@
-# 🤖 The Ultimate Interactive AI Strategy Lab: Fraud Detection 🔥
+# 🤖Fraud Detection Strategy Lab 🔥
 
 ## Project Overview
 

@@ -134,7 +134,7 @@ def get_model(model_name: str, params: dict, input_shape: int):
 
 # --- 3. MAIN APP LAYOUT & UI ---
 
-st.title("The Ultimate AI Strategy Lab: Fraud Detection")
+st.title("Fraud Detection Strategy Lab")
 st.markdown("A comprehensive tool to run live ML experiments and analyze pre-computed results. Created by **Coder Gang**.")
 
 # Load all data upfront
