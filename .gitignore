@@ -1,0 +1,54 @@
+# Git Ignore file for Fraud Detection Strategy Lab
+
+# -------------------------------------------------------------
+# Operating System / IDE specific files
+# -------------------------------------------------------------
+.DS_Store             # macOS system files
+.env                  # Environment variables (if you use a .env file for secrets)
+.venv/                # Python virtual environment directory (very important to ignore)
+venv/                 # Another common virtual environment name
+env/                  # Yet another common virtual environment name
+__pycache__/          # Python compiled bytecode directories
+*.pyc                 # More Python compiled bytecode files
+*.log                 # Log files
+.ipynb_checkpoints/   # Jupyter notebook checkpoints (if you use notebooks)
+.vscode/              # VS Code specific settings (usually local to dev)
+*.bak                 # Backup files
+*.tmp                 # Temporary files
+
+# -------------------------------------------------------------
+# Data related files - DO NOT COMMIT LARGE DATASETS
+# -------------------------------------------------------------
+data/                 # The directory where our large dataset (creditcard.csv) resides
+*.csv                 # Any CSV files in other directories that might be generated/temporary
+*.xlsx                # Excel files
+*.json                # JSON files (if they contain sensitive data or are large)
+*.parquet             # Parquet files (often large datasets)
+*.hdf5                # HDF5 files (often large datasets or model weights)
+
+# -------------------------------------------------------------
+# Machine Learning specific artifacts - Usually generated outputs
+# -------------------------------------------------------------
+#artifacts/            # The directory where experiment results and SHAP artifacts are stored
+
+
+# Trained models (if stored outside artifacts or in different formats)
+*.pkl                 # Python pickle files (often models or processed data)
+*.joblib              # Joblib files (another common format for models)
+*.h5                  # Keras/TensorFlow model files
+*.onnx                # ONNX models
+saved_model/          # TensorFlow SavedModel directory (often large)
+*.bin                 # Binary files, could be model weights
+model_weights/        # Common directory for model weights
+
+# Generated plots or images
+*.png                 # PNG images
+*.jpg                 # JPG images
+*.jpeg                # JPEG images
+*.svg                 # SVG images
+
+# -------------------------------------------------------------
+# Dependency Management (Pip)
+# -------------------------------------------------------------
+pip-log.txt           # Pip install logs
+.pip-log.txt

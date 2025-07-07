@@ -1,0 +1,37 @@
+model_name,sampling_strategy,hyperparameters,accuracy,precision,recall,f1_score,runtime_seconds
+Logistic Regression,None,"{'solver': 'liblinear', 'max_iter': 1000, 'random_state': 42}",0.9986626546305584,0.5714285714285714,0.8,0.6666666666666666,0.14064240455627441
+Logistic Regression,SMOTE,"{'solver': 'liblinear', 'max_iter': 1000, 'random_state': 42}",0.9983283182881979,0.5,0.8,0.6153846153846154,3.560178279876709
+Logistic Regression,Undersampling,"{'solver': 'liblinear', 'max_iter': 1000, 'random_state': 42}",0.8054162487462387,0.006837606837606838,0.8,0.013559322033898305,0.08377933502197266
+Random Forest,None,"{'n_estimators': 50, 'max_depth': 5, 'random_state': 42, 'n_jobs': -1}",0.9979939819458375,0.3333333333333333,0.2,0.25,0.5535175800323486
+Random Forest,SMOTE,"{'n_estimators': 50, 'max_depth': 5, 'random_state': 42, 'n_jobs': -1}",0.9986626546305584,0.6,0.6,0.6,0.9297380447387695
+Random Forest,Undersampling,"{'n_estimators': 50, 'max_depth': 5, 'random_state': 42, 'n_jobs': -1}",0.9939819458375125,0.19047619047619047,0.8,0.3076923076923077,0.4228851795196533
+Random Forest,None,"{'n_estimators': 100, 'max_depth': 10, 'random_state': 42, 'n_jobs': -1}",0.9979939819458375,0.3333333333333333,0.2,0.25,0.9118695259094238
+Random Forest,SMOTE,"{'n_estimators': 100, 'max_depth': 10, 'random_state': 42, 'n_jobs': -1}",0.9983283182881979,0.5,0.4,0.4444444444444444,1.7191188335418701
+Random Forest,Undersampling,"{'n_estimators': 100, 'max_depth': 10, 'random_state': 42, 'n_jobs': -1}",0.9949849548645938,0.2222222222222222,0.8,0.34782608695652173,0.788661003112793
+Random Forest,None,"{'n_estimators': 150, 'max_depth': 15, 'random_state': 42, 'n_jobs': -1}",0.9979939819458375,0.3333333333333333,0.2,0.25,1.2421236038208008
+Random Forest,SMOTE,"{'n_estimators': 150, 'max_depth': 15, 'random_state': 42, 'n_jobs': -1}",0.9983283182881979,0.5,0.4,0.4444444444444444,2.180802345275879
+Random Forest,Undersampling,"{'n_estimators': 150, 'max_depth': 15, 'random_state': 42, 'n_jobs': -1}",0.994316282179873,0.2,0.8,0.32,1.3518948554992676
+KNN (From Scratch),None,"{'k': 3, 'distance_metric': 'Euclidean'}",0.9979939819458375,0.4,0.4,0.4,282.4269435405731
+KNN (From Scratch),SMOTE,"{'k': 3, 'distance_metric': 'Euclidean'}",0.9983283182881979,0.5,0.6,0.5454545454545454,547.5737071037292
+KNN (From Scratch),Undersampling,"{'k': 3, 'distance_metric': 'Euclidean'}",0.9973253092611167,0.3333333333333333,0.6,0.42857142857142855,2.1016428470611572
+KNN (From Scratch),None,"{'k': 5, 'distance_metric': 'Euclidean'}",0.9979939819458375,0.3333333333333333,0.2,0.25,285.9298298358917
+KNN (From Scratch),SMOTE,"{'k': 5, 'distance_metric': 'Euclidean'}",0.9983283182881979,0.5,0.6,0.5454545454545454,620.4537386894226
+KNN (From Scratch),Undersampling,"{'k': 5, 'distance_metric': 'Euclidean'}",0.9979939819458375,0.3333333333333333,0.2,0.25,1.7176659107208252
+KNN (From Scratch),None,"{'k': 7, 'distance_metric': 'Euclidean'}",0.9979939819458375,0.3333333333333333,0.2,0.25,312.6649160385132
+KNN (From Scratch),SMOTE,"{'k': 7, 'distance_metric': 'Euclidean'}",0.9976596456034771,0.375,0.6,0.46153846153846156,691.7236452102661
+KNN (From Scratch),Undersampling,"{'k': 7, 'distance_metric': 'Euclidean'}",0.9979939819458375,0.3333333333333333,0.2,0.25,3.987884044647217
+KNN (From Scratch),None,"{'k': 5, 'distance_metric': 'Manhattan'}",0.9979939819458375,0.3333333333333333,0.2,0.25,312.37307620048523
+KNN (From Scratch),SMOTE,"{'k': 5, 'distance_metric': 'Manhattan'}",0.9979939819458375,0.42857142857142855,0.6,0.5,462.02948546409607
+KNN (From Scratch),Undersampling,"{'k': 5, 'distance_metric': 'Manhattan'}",0.9983283182881979,0.5,0.4,0.4444444444444444,0.9149196147918701
+KNN (From Scratch),None,"{'k': 7, 'distance_metric': 'Manhattan'}",0.9979939819458375,0.3333333333333333,0.2,0.25,159.2681109905243
+KNN (From Scratch),SMOTE,"{'k': 7, 'distance_metric': 'Manhattan'}",0.9979939819458375,0.42857142857142855,0.6,0.5,307.2190282344818
+KNN (From Scratch),Undersampling,"{'k': 7, 'distance_metric': 'Manhattan'}",0.9983283182881979,0.5,0.4,0.4444444444444444,0.7886157035827637
+Neural Network,None,"{'layers': 1, 'neurons': 32, 'learning_rate': 0.001, 'epochs': 20}",0.9983283182881979,0.5,0.4,0.4444444444444444,18.44048810005188
+Neural Network,SMOTE,"{'layers': 1, 'neurons': 32, 'learning_rate': 0.001, 'epochs': 20}",0.9989969909729187,0.6666666666666666,0.8,0.7272727272727273,33.509488582611084
+Neural Network,Undersampling,"{'layers': 1, 'neurons': 32, 'learning_rate': 0.001, 'epochs': 20}",0.5593447007689736,0.003028009084027252,0.8,0.006033182503770739,3.0666344165802
+Neural Network,None,"{'layers': 2, 'neurons': 64, 'learning_rate': 0.001, 'epochs': 20}",0.9983283182881979,0.5,0.4,0.4444444444444444,16.75483989715576
+Neural Network,SMOTE,"{'layers': 2, 'neurons': 64, 'learning_rate': 0.001, 'epochs': 20}",0.9986626546305584,0.6,0.6,0.6,30.97518515586853
+Neural Network,Undersampling,"{'layers': 2, 'neurons': 64, 'learning_rate': 0.001, 'epochs': 20}",0.8569040454697425,0.009280742459396751,0.8,0.01834862385321101,3.7537193298339844
+Neural Network,None,"{'layers': 2, 'neurons': 32, 'learning_rate': 0.0005, 'epochs': 30}",0.9979939819458375,0.3333333333333333,0.2,0.25,25.606963872909546
+Neural Network,SMOTE,"{'layers': 2, 'neurons': 32, 'learning_rate': 0.0005, 'epochs': 30}",0.9983283182881979,0.5,0.4,0.4444444444444444,45.782206535339355
+Neural Network,Undersampling,"{'layers': 2, 'neurons': 32, 'learning_rate': 0.0005, 'epochs': 30}",0.3353393513874958,0.0020090406830738324,0.8,0.004008016032064128,4.10368013381958
