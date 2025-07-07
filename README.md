@@ -149,7 +149,7 @@ Finally, start the Streamlit web application. This is your main interactive dash
 ```bash
 streamlit run app.py
 ```
-*Expected Output:* Your web browser should automatically open a new tab displaying the "Ultimate AI Strategy Lab". Enjoy exploring!
+*Expected Output:* Your web browser should automatically open a new tab displaying the "Fraud Detection Strategy Lab". Enjoy exploring!
 
 ## 🙏 Acknowledgements
 
